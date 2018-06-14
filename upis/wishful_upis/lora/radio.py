@@ -35,12 +35,19 @@ def set_dr(datarate):
 
     """
     return
+s
+def get_dr():
+    """This function sets the data rate for LoRa Mote.
+    Args:
 
+    Returns:
+         datarate (int): the values can be from 0 to 6.
+
+    """
+    return
 
 def set_cr(coderate):
     """This function sets the code rate for LoRa Mote.
-
-
     Args:
         coderate (int): the values can be from 1 to 4.
 
@@ -49,4 +56,14 @@ def set_cr(coderate):
     """
     return
 
+
+def get_cr():
+    """This function sets the code rate for LoRa Mote.
+    Args: 
+    Returns:
+    coderate (int): the values can be from 1 to 4.
+    1 is 4/5 2 is 4/6 3 is 4/7 and 4 is 4/8
+
+    """
+    return
 
