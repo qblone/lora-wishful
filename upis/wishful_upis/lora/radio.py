@@ -18,7 +18,7 @@ for configuration/monitoring of the lower layers of the network protocol stack
 
 LORA_PHY_CURRENTCHANNEL = Attribute("LORA_phyCurrentChannel", type=int, isReadOnly=False)  #: LORA channel number.
 LORA_TXPOWER = Attribute("LORA_phyTXPower", type=int, isReadOnly=False)  #: The transmit power of the device.
-LORA_ADR = Attribute("LORA_macLplPhaseOptimization", type=bool, isReadOnly=False)  #: Set the ADR on/off
+LORA_ADR = Attribute("LORA_adrEnabled", type=bool, isReadOnly=False)  #: Set the ADR on/off
 LORA_CODERATE = Attribute("LORA_codeRate", type=int, isReadOnly=False)  #: The transmit power of the device.
 
 
@@ -38,7 +38,7 @@ def set_dr(datarate):
 
 
 def set_cr(coderate):
-    """This function sets the data rate for LoRa Mote.
+    """This function sets the code rate for LoRa Mote.
 
 
     Args:

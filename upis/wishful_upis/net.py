@@ -341,3 +341,19 @@ def get_neighbor_table():
 
 def add_neighbor(neighbor_ip_address, neighbor_link_address, is_router):
     return
+
+
+def get_iface_stats(iface):
+    return
+
+
+def install_traffic_shaper(interface):
+    return
+
+
+def remove_traffic_shaper(interface):
+    return
+
+
+def change_traffic_rate(interface, rate):
+    return

@@ -63,11 +63,21 @@ def stop_hostapd():
     '''
     pass
 
+def switch_channel(new_channel):
+    '''Trigger AP to switch channel using CSA
+    '''
+    pass
 
-def connect_to_network(iface, ssid):
+def connect_to_network(iface, ssid, config_path):
     '''Connects a given interface to some network
 
     e.g. WiFi network identified by SSID.
+    '''
+    return
+
+
+def disconnect_from_network(iface):
+    '''Disconnects a given interface from any network
     '''
     return
 
