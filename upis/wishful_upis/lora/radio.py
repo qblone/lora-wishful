@@ -37,7 +37,7 @@ def set_dr(datarate):
     return
 s
 def get_dr():
-    """This function sets the data rate for LoRa Mote.
+    """This function gets the data rate for LoRa Mote.
     Args:
 
     Returns:
@@ -58,11 +58,32 @@ def set_cr(coderate):
 
 
 def get_cr():
-    """This function sets the code rate for LoRa Mote.
+    """This function gets the code rate for LoRa Mote.
     Args: 
     Returns:
     coderate (int): the values can be from 1 to 4.
     1 is 4/5 2 is 4/6 3 is 4/7 and 4 is 4/8
+
+    """
+    return
+
+
+def set_adr(flag):
+    """This function sets the code rate for LoRa Mote.
+    Args: 
+    This function sets the adr value, before starting to
+    manually change the parameters this is needed to be set
+    Returns:
+
+    """
+    return
+
+
+def get_adr():
+    """This function gets adr flag value.
+    Args: 
+    Returns:
+    1 if the flag is set otherwise 0
 
     """
     return
