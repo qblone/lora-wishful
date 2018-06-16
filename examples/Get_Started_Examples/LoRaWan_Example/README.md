@@ -29,11 +29,12 @@ We present a brief introduction about the LoRaWan and the current application. W
 The first step is to configure the mote with correct application keys, so they can activate and authenticate for the TTN servers, to receive data. Please use the keys from TTN account we configured earlier for the following steps. We will use Over-the-Air Activation (OTAA) method in our program. 
 
 Modify the controller file and add the following code
-SHELL 1 - WiSHFUL CONTROLLER :
+<pre><code>This is a code block.
+
 controller.node(nodes[0]).radio.iface("eth0").set_devEUI(YOURDEVEUI)
 controller.node(nodes[0]).radio.iface("eth0").set_appEUI(YOURApplicationEUI)
 controller.node(nodes[0]).radio.iface("eth0").set_ak(YOURAPPKEY)
-
+</code></pre>
 
 
 
