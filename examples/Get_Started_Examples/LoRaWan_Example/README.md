@@ -36,7 +36,10 @@ controller.node(nodes[0]).radio.iface("eth0").set_appEUI(YOURApplicationEUI)
 controller.node(nodes[0]).radio.iface("eth0").set_ak(YOURAPPKEY)
 </code></pre>
 
+After running the above commands your device is now activated and you should be able to see incoming data at the following link
 
+https://console.thethingsnetwork.org/applications/ttn-exp/devices/dev01/data
 
-
+![Alt text](/imgs/connection.png)
+Notice the first four messages are activation packets. The messages with blue arrows are actual data packets. 
 
