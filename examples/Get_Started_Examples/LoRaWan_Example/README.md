@@ -40,6 +40,9 @@ After running the above commands your device is now activated and you should be 
 
 https://console.thethingsnetwork.org/applications/ttn-exp/devices/dev01/data
 
-![Alt text](/imgs/connection.png)
+![Alt text](/examples/Get_Started_Examples/LoRaWan_Example/imgs/connection.png)
 Notice the first four messages are activation packets. The messages with blue arrows are actual data packets. 
+
+
+
 
