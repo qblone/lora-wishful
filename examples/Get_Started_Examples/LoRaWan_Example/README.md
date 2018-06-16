@@ -48,5 +48,5 @@ Notice the first four messages are activation packets. The messages with blue ar
 The first step before we change the transmission parameters is to disable Adaptive Data Rate (ADR).  It is a mechanism to optimize data rates, airtime and energy consumption. The optimal parameters are sent to the motes from the gateway based on SNR values of last 20 packets received. However, in our experiment, we want to select our parameters. We use the following code to disable ADR.
 
 <pre><code>
-controller.node(nodes[0]).radio.iface("eth0").enableADR(False)
+controller.node(nodes[0]).radio.iface("eth0").enable_ADR(False)
 </code></pre>
