@@ -12,7 +12,7 @@ We installed WiSHFUL global controller program, on a PC connected through ethern
 
 
 # Pre-requsites: 
-1 ) Wishful Platform :
+1) Wishful Platform :
 In our example we install WiSHFUL Local Control program on raspberry pi. The motes are connected to raspberry pi on serial interface. The WiSHFUL Global Program is installed on a physical machine. Please follow the guide here (http://www.wishful-project.eu/GettingStarted) to install WiSHFUL framework on machines running local control and global control program. Documentation about UPIs can be found here (https://wishful-project.github.io/wishful_upis/) 
 
 2) LoRa Mote : 
