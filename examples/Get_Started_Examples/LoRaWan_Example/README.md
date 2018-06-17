@@ -85,3 +85,15 @@ Now, we are ready to change the transmission parameters. The table below gives t
 <tr> <td> 5 </td> <td> 4 </td> 
 <tr> <td> 6 </td> <td> 2 </td> 
 </table>
+
+**Code Rate (cr) :**
+<table>
+    <tr>
+        <td>CR</td> <td> Code Rate </td>  
+    </tr>
+
+<tr> <td> 1 </td> <td> 4/5 </td> 
+<tr> <td> 2 </td> <td> 4/6 </td> 
+<tr> <td> 3 </td> <td> 4/7 </td> 
+<tr> <td> 4 </td> <td> 4/8 </td> 
+</table>
