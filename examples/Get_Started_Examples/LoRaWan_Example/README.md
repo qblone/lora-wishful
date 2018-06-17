@@ -55,7 +55,7 @@ Now, we are ready to change the transmission parameters. The table below gives t
 **Data Rate**
 <table>
     <tr>
-        <td>**DR**</td> <td> **Spreading Factor**</td> <td> ** Bandwidth **</td> 
+        <td>DR</td> <td>Spreading Factor</td> <td>  Bandwidth </td> 
     </tr>
 <tr>
 <td> 0 </td> <td> 12 </td> <td> 125 </td>
