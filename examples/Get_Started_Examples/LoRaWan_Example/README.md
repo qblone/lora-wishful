@@ -52,7 +52,9 @@ controller.node(nodes[0]).radio.iface("eth0").enableADR(False)
 </code></pre>
 
 Now, we are ready to change the transmission parameters. The table below gives the values you can enter and their associate LoRaWan parameter. 
-**Data Rate**
+
+
+**Data Rate :**
 <table>
     <tr>
         <td>DR</td> <td>Spreading Factor</td> <td>  Bandwidth </td> 
