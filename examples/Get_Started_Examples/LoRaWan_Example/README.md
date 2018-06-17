@@ -114,3 +114,18 @@ controller.node(nodes[0]).radio.iface("eth0").set_cr(coderate)
 //setting transmission power. Please note that this value is not in dBm. 
 controller.node(nodes[0]).radio.iface("eth0").set_tx_power(txpwr)
 </code></pre>
+
+You should be able to validate the changes in parameters by observing SF  and CR values from TTN data. 
+
+# Download results from TTN
+In the final phase of the tutorial, we will run a script to download data from TTN servers. 
+
+You can use download_ttn_data.py script from  ttn_client folder to download data from TTN. Change the following values according to the ones assigned to you when you registered for TTN. 
+
+<code><pre>
+
+APPEUI = "YOURAPPEUI"
+APPID  = "YOURAPPID"
+PSW    = 'ttn-account-v2.<lots-of-chars>'
+</code></pre>
+ 
