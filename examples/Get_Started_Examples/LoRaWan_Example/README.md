@@ -48,5 +48,16 @@ Notice the first four messages are activation packets. The messages with blue ar
 The first step before we change the transmission parameters is to disable Adaptive Data Rate (ADR).  It is a mechanism to optimize data rates, airtime and energy consumption. The optimal parameters are sent to the motes from the gateway based on SNR values of last 20 packets received. However, in our experiment, we want to select our parameters. We use the following code to disable ADR.
 
 <pre><code>
-controller.node(nodes[0]).radio.iface("eth0").enable_ADR(False)
+controller.node(nodes[0]).radio.iface("eth0").enableADR(False)
 </code></pre>
+
+Now, we are ready to change the transmission parameters. The table below gives the values you can enter and their associate LoRaWan parameter. 
+**Data Rate**
+<table>
+    <tr>
+        <td>**DR**</td> <td> **Spreading Factor**</td> <td> ** Bandwidth **</td> 
+    </tr>
+<tr>
+<td> 0 </td> <td> 12 </td> <td> 125 </td>
+</tr>
+</table>
