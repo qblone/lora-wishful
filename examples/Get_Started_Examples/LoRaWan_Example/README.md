@@ -69,3 +69,19 @@ Now, we are ready to change the transmission parameters. The table below gives t
 <tr> <td> 6 </td> <td> 7 </td> <td> 250 </td></tr>
 
 </table>
+
+
+**Transmitted Power (TP) :**
+<table>
+    <tr>
+        <td>TP</td> <td> TP (dBm) </td>  
+    </tr>
+
+ <tr> <td> 0 </td> <td> 14 </td> 
+<tr> <td> 1 </td> <td> 12 </td> 
+<tr> <td> 2 </td> <td> 10 </td> 
+<tr> <td> 3 </td> <td> 8 </td> 
+<tr> <td> 4 </td> <td> 6 </td> 
+<tr> <td> 5 </td> <td> 4 </td> 
+<tr> <td> 6 </td> <td> 2 </td> 
+</table>
