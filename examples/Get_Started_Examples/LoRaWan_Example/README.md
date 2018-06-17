@@ -86,7 +86,7 @@ Now, we are ready to change the transmission parameters. The table below gives t
 <tr> <td> 6 </td> <td> 2 </td> 
 </table>
 
-**Code Rate (cr) :**
+**Code Rate (CR) :**
 <table>
     <tr>
         <td>CR</td> <td> Code Rate </td>  
@@ -97,3 +97,20 @@ Now, we are ready to change the transmission parameters. The table below gives t
 <tr> <td> 3 </td> <td> 4/7 </td> 
 <tr> <td> 4 </td> <td> 4/8 </td> 
 </table>
+
+We can change these parameters in the controller with the following code.  
+
+Please use the respective values from the tables. 
+
+
+<pre><code>
+dr =1 
+cr =2
+txpwr =2
+// Setting up datarate
+controller.node(nodes[0]).radio.iface("eth0").set_dr(datarate)
+//setting code rate
+controller.node(nodes[0]).radio.iface("eth0").set_cr(coderate)
+//setting transmission power. Please note that this value is not in dBm. 
+controller.node(nodes[0]).radio.iface("eth0").set_tx_power(txpwr)
+</code></pre>
